@@ -1,4 +1,4 @@
-const JUEGOS_URL = "";
+const JUEGOS_URL = "https://gitema.github.io/Juegos2020/juegos.json";
 
 var getJSONDATA = function (url) {
     var result = {};

@@ -6,11 +6,11 @@ function showJuegos(array) {
     for (let i = 0; i < array.length; i++) {
         let juegos = array[i];
 
-        contenido += '<p>Título: </p>' + juegos.titulo + '<br>';
-        contenido += '<p>Plataforma(s): </p>' + juegos.plataforma + '<br>';
-        contenido += '<p>Fecha de lanzamiento: </p>' + juegos.fecha + '<br>';
-        contenido += '<p>Género: </p>' + juegos.genero + '<br>';
-        contenido += '<br><hr><br>'
+        contenido += `<p>Título: </p>` + juegos.titulo + `<br>`;
+        `<p>Plataforma(s): </p>` + juegos.plataforma + `<br>`;
+        `<p>Fecha de lanzamiento: </p>` + juegos.fecha + `<br>`;
+        `<p>Género: </p>` + juegos.genero + `<br>`;
+        `<br><hr><br>`
         
         document.getElementById('catalago').innerHTML = contenido ;
     }

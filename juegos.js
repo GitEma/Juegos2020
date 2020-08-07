@@ -9,7 +9,7 @@ function showJuegos(array) {
         htmlContentToAppend += `
          <div class="row">
                     <div class="col-3">
-                        <img src="` + juegos.imagen + `" alt="` + category.description + `" class="img-thumbnail">
+                        <img src="` + juegos.imagen + `" alt="` + juegos.descripcion + `" class="img-thumbnail">
                     </div>
                     <div class="col">
                         <div class="d-flex w-100 justify-content-between">

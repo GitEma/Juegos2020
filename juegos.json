@@ -4,20 +4,26 @@
         "titulo": "CyberPunk 2077",
         "plataforma": "Microsoft Windows, Xbox Series X, Xbox One, PlayStation 5, PlayStation 4, Stadia",
         "fecha": "PlayStation 4, Xbox One y Windows: 19 de noviembre de 2020, <br> PlayStation 5, Xbox Series X y Stadia Finales de 2020",
-        "genero": "RPG"
+        "genero": "RPG",
+        "Imagen": "cyberpunk.png",
+        "descripcion": "portada cyberpunk 2077"
     },
     {
         "id": 2,
         "titulo": "Dragon Ball Z Kakarot",
         "plataforma": "PlayStation VR, Windows, Xbox One, PlayStation 4",
         "fecha": "17 de enero de 2020",
-        "genero": "Rol de acción"
+        "genero": "Rol de acción",
+        "Imagen": "dbzkakarot.jpg",
+        "descripcion": "portada Dragon ball z kakarot"
     },
     {
         "id": 3,
         "titulo": "Last of Us part 2",
         "plataforma": "Playstation 4",
         "fecha": "19 de junio de 2020",
-        "genero": "Horror de supervivencia, Acción-aventura, Disparos en tercera persona"
+        "genero": "Horror de supervivencia, Acción-aventura, Disparos en tercera persona",
+        "Imagen": "thelastofus2.jpg",
+        "descripcion": "portada The last of us parte 2"
     }
 ]

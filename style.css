@@ -1,6 +1,6 @@
 body {
     background-image: url(fondo.jpg);
-    background-position: center;
+    background-position: absolute;
     background-attachment: contain;
     background-size: cover;
     background-size: 100vw 100vh;
@@ -18,16 +18,26 @@ h1 {
     text-align: center;
     text-size-adjust: 300%;
     
+    
 }
 
-hr {
-    lighting-color: aqua;
+/* para corregirlo y poner fondo de fuego al titulo.
+#titulo {
+    background: url(FireTransparent.gif);
+    background-size: 100px 300px ;
+    background-repeat: no-repeat;
 }
+*/
 
-div {
+div > div {
     background: rgba(50, 37, 122, 0.6);
     width: auto;
     border: solid aqua 2px;
+    margin: 3em;
     padding: 100px;
 
+}
+
+img {
+    float: left;
 }

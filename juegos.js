@@ -7,11 +7,19 @@ function showJuegos(array) {
         let juegos = array[i];
 
         htmlContentToAppend += `
-         <p>Título: </p>` + juegos.titulo + `<br>
-        <p>Plataforma(s): </p>` + juegos.plataforma + `<br>
-        <p>Fecha de lanzamiento: </p>` + juegos.fecha + `<br>
-        <p>Género: </p>` + juegos.genero + `<br>
-        <br><hr><br>`
+         <div class="row">
+                    <div class="col-3">
+                        <img src="` + juegos.imagen + `" alt="` + category.description + `" class="img-thumbnail">
+                    </div>
+                    <div class="col">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h4 class="mb-1">`+ juegos.titulo +`</h4>
+                        </div>
+                        <p>Plataforma(s): </p>` + juegos.plataforma + `<br>
+                        <p>Fecha de lanzamiento: </p>` + juegos.fecha + `<br>
+                        <p>Género: </p>` + juegos.genero + `<br></div><br><hr><br>
+                    </div>
+                </div>`
 
         document.getElementById("informacion").innerHTML = htmlContentToAppend;
     }
@@ -27,3 +35,20 @@ document.addEventListener("DOMContentLoaded", function (e) {
         }
     });
 });
+
+
+/*
+function insert(numeroDiv, imgName){
+var src = document.getElementsByTagName('div')[numeroDiv]
+var img = document.createElement('img');
+img.src = imgName;
+
+src.appendChild(img);
+}
+
+
+
+// la function insert esta bien pero debo encontrar como hacerla funcionar correctamente. 
+
+*/
+

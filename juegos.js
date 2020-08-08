@@ -13,7 +13,7 @@ function showJuegos(array) {
                     </div>
                     <div class="col">
                         <div class="d-flex w-100 justify-content-between">
-                            <h4 class="mb-1"><a href="` + juegos.trailer + `>"`+ juegos.titulo +`</a></h4>
+                            <h4 class="mb-1"><a href="` + juegos.trailer + `">`+ juegos.titulo +`</a></h4>
                         </div>
                         <p>Plataforma(s):<br> ` + juegos.plataforma + `</p>
                         <p>Fecha de lanzamiento:<br> ` + juegos.fecha + `</p>

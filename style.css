@@ -23,6 +23,22 @@ h1 {
     
 }
 
+a:link {
+    color: lightseagreen;
+}
+
+a:visited {
+    color: lime;
+}
+
+a:active {
+    color: red;
+}
+
+a:hover {
+    color: lightgreen;
+}
+
 /* para corregirlo y poner fondo de fuego al titulo.
 #titulo {
     background: url(FireTransparent.gif);

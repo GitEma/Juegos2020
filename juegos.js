@@ -17,7 +17,7 @@ function showJuegos(array) {
                         </div>
                         <p>Plataforma(s):<br> ` + juegos.plataforma + `</p><br>
                         <p>Fecha de lanzamiento:<br> ` + juegos.fecha + `</p><br>
-                        <p>Género:<br> ` + juegos.genero + `</p><br></div><br><hr>
+                        <p>Género:<br> ` + juegos.genero + `</p><br></div><hr>
                     </div>
                 </div>`
 

@@ -12,6 +12,7 @@ body {
     font-style: oblique;
     color: black;
     font-size: large;
+    text-justify: distribute-all-lines;
 }
 
 h1 {
@@ -29,7 +30,7 @@ h1 {
 }
 */
 
-div > div {
+div > div > div {
     background: rgba(50, 37, 122, 0.6);
     width: auto;
     border: solid aqua 2px;
@@ -38,6 +39,45 @@ div > div {
 
 }
 
-img {
+.col {
+    object-position: right;
+    padding: 0 50px 10px 10px;  
+    
+}
+
+.col-3 {
+    background: unset;
+    width: fit-content;
+    border: solid aqua 1px;
+    margin: unset;
+    padding: 1px;
     float: left;
+    margin-left: 4em;
+    margin-top: 1em;
+}
+
+.d-flex {
+    background: unset;
+    width: auto;
+    border: unset;
+    float: unset;
+    margin: unset;
+    padding: unset;
+    justify-content: space-between;
+}
+
+p {
+    text-align: left;
+}
+h4 {
+    margin-left: 150px;
+}
+
+img {
+    float: center;
+    width: 200px;
+    border-radius: 8px;
+    margin: unset;
+    padding: 1px;
+    object-fit: contain;
 }

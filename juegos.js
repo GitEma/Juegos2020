@@ -15,9 +15,9 @@ function showJuegos(array) {
                         <div class="d-flex w-100 justify-content-between">
                             <h4 class="mb-1">`+ juegos.titulo +`</h4>
                         </div>
-                        <p>Plataforma(s): </p>` + juegos.plataforma + `<br>
-                        <p>Fecha de lanzamiento: </p>` + juegos.fecha + `<br>
-                        <p>Género: </p>` + juegos.genero + `<br></div><br><hr><br>
+                        <p>Plataforma(s): ` + juegos.plataforma + `</p><br>
+                        <p>Fecha de lanzamiento: ` + juegos.fecha + `</p><br>
+                        <p>Género: ` + juegos.genero + `</p><br></div><br><hr>
                     </div>
                 </div>`
 
